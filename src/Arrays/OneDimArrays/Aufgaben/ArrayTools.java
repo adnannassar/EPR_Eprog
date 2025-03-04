@@ -38,6 +38,23 @@ public class ArrayTools {
         return min;
     }
 
+    public static int countUsingCounter(int[] array) {
+        int count = 0;
+        for (int i = 0; i < array.length; i++) {
+            count++;
+        }
+        return count;
+    }
+
+    public static int countUsingI(int[] array) {
+        int i;
+        for (i = 0; i < array.length; i++) {
+
+        }
+        return i;
+    }
+
+
     public static boolean search(int[] array, int number) {
         boolean found = false;
         for (int i = 0; i < array.length; i++) {
