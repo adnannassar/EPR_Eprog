@@ -1,4 +1,4 @@
-package Lists.SingleLinkedListe;
+package Lists.SingleLinkedList.IntergerList;
 
 public class ListNode {
     private int data;
